@@ -12,6 +12,11 @@ class Constants {
   static const String ROUTE_LOGIN = "/login";
   static const String ROUTE_GAME = "/game";
 
+
+  static const String ROCK_PATH = "/assets/images/rock.png";
+  static const String PAPER_PATH = "/assets/images/rock.png";
+  static const String SCISSORS_PATH = "/assets/images/rock.png";
+
   static const int PADDING = 20;
 
   static Color APPBAR_BACKGROUND_COLOR = Colors.indigoAccent[100];

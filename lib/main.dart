@@ -28,8 +28,9 @@ class MyApp extends StatelessWidget {
           textTheme: ButtonTextTheme.normal,
         ),
       ),
-      home: HomeLogin(),
+      // home: HomeLogin(),
       routes: {
+        Constants.ROUTE_LOGIN: (context) => HomeLogin(),
         Constants.ROUTE_MAIN: (context) => HomePage(),
         Constants.ROUTE_GAME: (context) => GameInfo(),
       },
