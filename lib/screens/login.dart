@@ -13,7 +13,12 @@ class HomeLogin extends StatelessWidget {
           children: [
             TextField(),
             TextField(),
-            ElevatedButton(onPressed: (){}, child: Text(Constants.BTN_LOGIN)),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.pushNamed(context, Constants.ROUTE_MAIN);
+              },
+              child: Text(Constants.BTN_LOGIN),
+            ),
           ],
         ),
       ),
